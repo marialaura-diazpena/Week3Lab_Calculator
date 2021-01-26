@@ -4,7 +4,7 @@
     Author     : 807930
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,9 +18,9 @@
             <input type="submit" value="Age next birthday">
         </form>
         
-        <p>${message}</p>
+        <p>${ageMessage}</p>
         
-        <a href="/WEB-INF/arithmeticCalculator.jsp" action="arithmetic"> Arithmetic Calculator</a>
+        <a href="arithmetic"> Arithmetic Calculator</a>
             
     </body>
 </html>
